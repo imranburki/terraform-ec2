@@ -14,7 +14,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "Instance type for EC2"
   type        = string
-  default     = "t2.medium"
+  default     = "t2.micro"
 }
 
 variable "ssh_allowed_ip" {
