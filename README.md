@@ -16,6 +16,7 @@ This Terraform project automates the deployment of an AWS EC2 instance with a se
 ├── security-group/          # Module to create a security group
 │   └── main.tf
 └── README.md                # Project documentation
+```
 ## ✅ Features
 
 - Deploys a single EC2 instance using a reusable module.
