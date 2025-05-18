@@ -16,12 +16,11 @@ This Terraform project automates the deployment of an AWS EC2 instance with a se
 ├── security-group/          # Module to create a security group
 │   └── main.tf
 └── README.md                # Project documentation
+## ✅ Features
 
-## Features
 - Deploys a single EC2 instance using a reusable module.
 - Creates a security group that:
   - Allows HTTP traffic from anywhere (`0.0.0.0/0`).
   - Allows SSH access **only from your IP** (not open to all).
 - Uses variables for AMI ID, instance type, region, and allowed IPs.
 - Outputs the public IP of the deployed EC2 instance.
-
