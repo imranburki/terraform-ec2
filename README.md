@@ -18,7 +18,6 @@ This Terraform project automates the deployment of an AWS EC2 instance with a se
 └── README.md                # Project documentation
 
 ## Features
-
 - Deploys a single EC2 instance using a reusable module.
 - Creates a security group that:
   - Allows HTTP traffic from anywhere (`0.0.0.0/0`).
