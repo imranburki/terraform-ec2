@@ -25,3 +25,10 @@ This Terraform project automates the deployment of an AWS EC2 instance with a se
   - Allows SSH access **only from your IP** (not open to all).
 - Uses variables for AMI ID, instance type, region, and allowed IPs.
 - Outputs the public IP of the deployed EC2 instance.
+
+## 🔒 Security Considerations
+- SSH access is restricted to a specific IP (ssh_allowed_ip) to prevent unauthorized access.
+
+- Avoids hardcoded credentials or open SSH access (0.0.0.0/0).
+
+- Promotes security best practices via minimal, specific ingress rules.
